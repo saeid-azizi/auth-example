@@ -12,6 +12,7 @@ const app = express();
 
 const { User } = require('./models/user');
 app.use(bodyParser.json()); 
+// just a comment
 app.use(cookieParser());
 
 
